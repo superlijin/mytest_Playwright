@@ -12,6 +12,19 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 module.exports = defineConfig({
   testDir: './tests',
+
+  /*
+	用例执行的最大时间，超过此限制则用例会执行失败
+	*/
+  timeout: 50 * 1000,
+
+  expect: {
+		/*
+		 断言期望执行的最大时间，超过此限制则用例会失败
+		*/
+    timeout: 200 * 1000,
+  },
+
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -30,10 +43,14 @@ module.exports = defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
 
-    /*
-    录制窗口的大小
+    /* 录制窗口的大小 */
+    viewport: { 'width': 1920, 'height': 1080 },
+
+    /* 
+    执行类似click()等操作的最大时间
+    设置成0表示没有限制
     */
-    viewport: { width: 1366, height: 768 },
+    actionTimeout: 0,
     
     /* headless 配置为false后，运行时会开启浏览器*/
     headless: false
