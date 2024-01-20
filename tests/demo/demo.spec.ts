@@ -15,7 +15,6 @@ test('hao268', async ({ page }) => {
   
   //input 标签定位写法
   await page.locator('input[name="wd"]').fill('你好呀!');
-
   
 });
 
