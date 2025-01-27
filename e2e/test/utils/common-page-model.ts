@@ -4,17 +4,19 @@ import { PreUserInfo } from '../config/user';        //说明：导入用户信�
 import { UrlInfo } from '../config/page';               //说明：导入页面 URL 配置，这是自定义的 URL 信息接口或类型  --该脚本这里并没有使用
 
 //【公共登录方法】
+//该方法用于解决每次走登录这个步骤，比如有些登录是需要鉴权后才能访问home页面，所以这里做了抽象登录方法
 
 // export const AUTH_URL =
-//   'https://ipaybuservice.alipay.com/login.htm';
+// 'https://ipaybuservice.alipay.com/login.htm';    //比如这个就是鉴权的页面
 
 
 //定义了一个 CommonPageModel 类
 export class CommonPageModel {
-  readonly page: Page;   //说明：声明一个只读属性 page，类型为 Page，用于保存浏览器页面实例
+
+  readonly page: Page;      //说明：声明一个只读属性 page，类型为 Page，用于保存浏览器页面实例
 
   constructor(page: Page) {
-    this.page = page;    //说明：构造函数，接收一个 Page 实例并赋值给类的 page 属性
+    this.page = page;          //说明：构造函数，接收一个 Page 实例并赋值给类的 page 属性
   }
 
   
@@ -29,18 +31,18 @@ export class CommonPageModel {
 */
   async login(url, username, password) {
     
-    const { page } = this;                                  //解构赋值，获取当前类实例中的 page 属性
+    const { page } = this;                                                 //解构赋值，获取当前类实例中的 page 属性
     
-    console.log('start login.');                            //输出日志，表示 开始登录流程 ，在终端打印出来
+    console.log('开始登录~');                                          //输出日志，表示 开始登录流程 ，在终端打印出来
 
-    await page.goto(url, { waitUntil: "load", });  //导航到指定的登录页面，并等待页面加载完成
+    await page.goto(url, { waitUntil: "load", });               //导航到指定的登录页面，并等待页面加载完成
 
-    const isACI = process.env.CI === 'true';        //检查是否在 CI（持续集成）环境中运行，如果是，则设置较长的等待时间（5秒），否则为较短的时间（1秒）。
-    await page.waitForTimeout(isACI ? 5000 : 1000); //根据环境变量 CI 的值等待一定时间
+    const isACI = process.env.CI === 'true';                   //检查是否在 CI（持续集成）环境中运行，如果是，则设置较长的等待时间（5秒），否则为较短的时间（1秒）。
+    await page.waitForTimeout(isACI ? 5000 : 1000);     //根据环境变量 CI 的值等待一定时间
 
     //定位到登录 iframe，在浏览器body即可找到。 <iframe> 标签规定一个内联框架 【查看 代码解剖】
     const frameLocator = await page.frameLocator('#login-iframe');      //定义一个常量来接收 iframe 标签里面元素信息，便于后续使用
-    await expect(frameLocator, '未找到登录弹窗').not.toBeNull();            //断言 iframe 是否存在，如果不存在则抛出错误
+    await expect(frameLocator, '未找到登录弹窗').not.toBeNull();             //断言 iframe 是否存在，如果不存在则抛出错误
     //定位 用户、密码、登录 的元素
     await frameLocator.locator('input[name="username"]').fill(username || '');                 //在 iframe 中定位用户名输入框 并 填充用户名
     await frameLocator.locator('input[name="userpass"]').fill(password || '');                   //在 iframe 中定位密码输入框 并 填充密码
@@ -48,7 +50,7 @@ export class CommonPageModel {
 
     await page.waitForNavigation();      //等待页面导航完成，确保登录成功后页面已加载完毕
 
-    console.log('login success.');          //走到这里表示成功登录了，输出日志
+    console.log('登录成功！');           //走到这里表示成功登录了，输出日志
     
   }
   
