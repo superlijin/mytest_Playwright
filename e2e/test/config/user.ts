@@ -35,7 +35,7 @@ export const ProUserInfo: {
   [key in string]: AccountInfo;
 } = {
   testUser: {
-    account: '13688192394',
-    password: 'superlijin163',
+    account: '',
+    password: '',
   }
 }
