@@ -11,8 +11,8 @@ export const DevUserInfo: {
   [key in string]: AccountInfo;
 } = {
   testUser: {
-    account: 'ibosstest',
-    password: 'Iboss666',
+    account: '',
+    password: '',
   }
 }
 
@@ -23,8 +23,8 @@ export const PreUserInfo: {
     [key in string]: AccountInfo;
   } = {
     testUser: {
-      account: 'wb-lj375511',
-      password: 'superJAY***',
+      account: '',
+      password: '',
     }
 }
 
@@ -35,7 +35,7 @@ export const ProUserInfo: {
   [key in string]: AccountInfo;
 } = {
   testUser: {
-    account: 'Iboss666',
-    password: 'Iboss666',
+    account: '13688192394',
+    password: 'superlijin163',
   }
 }

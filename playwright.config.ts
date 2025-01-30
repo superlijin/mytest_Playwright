@@ -64,7 +64,7 @@ const config: PlaywrightTestConfig = {           //定义了名为config的对�
     baseURL: 'http://localhost:8000',                                       //基础URL设置为http://localhost:8000，用于相对路径请求
     
     //【重要！！！】登录信息去本地的缓存文件拿 -- 如果不需要读取，则注释即可
-    //storageState: './e2e/.tmp/state.json',                              //使用本地缓存文件存储状态，以便快速恢复登录等操作，用于处理浏览器会话数据（例如登录信息），极大地提高测试效率并减少重复劳动
+    storageState: './e2e/.tmp/state.json',                              //使用本地缓存文件存储状态，以便快速恢复登录等操作，用于处理浏览器会话数据（例如登录信息），极大地提高测试效率并减少重复劳动
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',       //当测试第一次重试时收集跟踪信息
@@ -102,7 +102,7 @@ const config: PlaywrightTestConfig = {           //定义了名为config的对�
 try{
   //这里是 【全局初始化脚本】 优先执行！！！    //如果需要使用抽象登录，则开启 storageState 注释
   //加载全局初始化脚本 global-setup，该脚本是把登录能力给写到缓存中。如果加载失败，则忽略错误继续执行后续逻辑
-  //config.globalSetup = require.resolve('./e2e/test/utils/global-setup')   //globalSetup单独拎出来了，为了适配昊天塔平台的接入
+  config.globalSetup = require.resolve('./e2e/test/utils/global-setup')   //globalSetup单独拎出来了，为了适配昊天塔平台的接入
   
 }catch (ex) {
  //ignore

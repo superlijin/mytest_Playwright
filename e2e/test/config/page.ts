@@ -5,22 +5,22 @@ export const UrlInfo = {
   //域名
   url: {
     dev: 'xxx',
-    pre: 'https://ics-site-pre.alipay.com',
-    pro: 'xxx',
+    pre: 'xxx',
+    pro: 'https://mail.163.com',
   },
 
   //鉴权登录地址
   auth: {
     dev: 'xxx',
-    pre: 'https://ipaybuservice.alipay.com/login.htm',
-    pro: 'https://ipaybuservice.alipay.com/login.htm',
+    pre: 'xxx',
+    pro: 'https://mail.163.com',
   },
 
   
   //pro拼接页面URL
   pageUrl_pro: {
     //首页
-    portal: '/ics-portal/home'
+    portal: '/js6/main.jsp?sid=dLjHtGuYpCHWDszMlbYYtVZLpXdQfQks&df=mail163_letter#module=welcome.WelcomeModule%7C%7B%7D'
 
   },
 

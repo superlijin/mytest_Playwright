@@ -1,0 +1,45 @@
+import { test, expect, chromium } from '@playwright/test';
+
+
+/*
+安装所需程序
+cnpm install @playwright/test
+cnpm install @types/node
+cnpm install cross-env
+cnpm install ts-node
+cnpm install dotenv
+
+-- 可能会出现让你安装或更新浏览器
+npx playwright install
+*/
+
+
+
+/**
+ * 开局写法
+ */
+
+test.beforeEach(async ({ page }) => {
+  //每个测试之前运行的钩子
+  console.log('我是开始的~');
+  });
+
+
+test.describe('测试组名称', () => {
+//测试组
+  
+  test('测试用例1', async ({page}) => {
+    //编写测试用例
+    });
+  
+  test('测试用例2', async ({page}) => {
+    //编写测试用例
+    });
+  
+});
+
+
+test.afterEach(async ({ page }) => {
+  //每个测试之后运行的钩子
+  console.log('我是收尾的~');
+  });

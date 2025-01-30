@@ -40,6 +40,8 @@ export class CommonPageModel {
     const isACI = process.env.CI === 'true';                   //检查是否在 CI（持续集成）环境中运行，如果是，则设置较长的等待时间（5秒），否则为较短的时间（1秒）。
     await page.waitForTimeout(isACI ? 5000 : 1000);     //根据环境变量 CI 的值等待一定时间
 
+    /*
+    * //demo：以下是登录的具体操作，这里是一个示例，具体的登录操作需要根据实际情况来编写
     //定位到登录 iframe，在浏览器body即可找到。 <iframe> 标签规定一个内联框架 【查看 代码解剖】
     const frameLocator = await page.frameLocator('#login-iframe');      //定义一个常量来接收 iframe 标签里面元素信息，便于后续使用
     await expect(frameLocator, '未找到登录弹窗').not.toBeNull();             //断言 iframe 是否存在，如果不存在则抛出错误
@@ -47,6 +49,21 @@ export class CommonPageModel {
     await frameLocator.locator('input[name="username"]').fill(username || '');                 //在 iframe 中定位用户名输入框 并 填充用户名
     await frameLocator.locator('input[name="userpass"]').fill(password || '');                   //在 iframe 中定位密码输入框 并 填充密码
     await frameLocator.locator('.submit.domain-body-submit-control-submit').click();   //点击 提交按钮进行登录，这里找的是css样式来定位
+    */
+
+
+    /**
+     * 163 邮箱登录
+     */
+    //定位到登录 iframe，因163存在动态id，故使用正则表达式来获取前面固定的元素id
+    const frameLocator = await page.frameLocator('iframe[id^="x-URS-iframe"]');
+    await expect(frameLocator, '未找到登录弹窗').not.toBeNull(); 
+    
+    //定位 用户、密码、登录 的元素，目前来看163只有name是固定的，所以这里直接使用name来定位
+    await frameLocator.locator('input[name="email"]').fill(username || '');
+    await frameLocator.locator('input[name="password"]').fill(password || '');
+    //await frameLocator.locator('.dologin').click();
+    await page.keyboard.press('Enter');
 
     await page.waitForNavigation();      //等待页面导航完成，确保登录成功后页面已加载完毕
 

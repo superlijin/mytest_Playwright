@@ -1,0 +1,413 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "5F191723A9890FEDF9823B685566AA8E",
+      "domain": "mail.163.com",
+      "path": "/contact163",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "4A079B52D302495E0D92CF0DCB7724D0",
+      "domain": "mail.163.com",
+      "path": "/smflow",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "starttime",
+      "value": "",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "stats_session_id",
+      "value": "bbc37ba3-925b-45a8-875d-599d91175129",
+      "domain": "mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utid",
+      "value": "bqknvFVHcqnfmpArHCqGBOFgjuEmyhGO",
+      "domain": "dl.reg.163.com",
+      "path": "/",
+      "expires": 1772765266.660929,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NTES_WEB_FP",
+      "value": "7c573f7ffca25b9c682bac0e832e3644",
+      "domain": "dl.reg.163.com",
+      "path": "/",
+      "expires": 1740797266,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "l_s_mail163CvViHzl",
+      "value": "2BDA1093FDDA9283AD02B57FFFEC7E0E28206649BA521344A4CDCC1F2935033F4F2FDD3F819275935F6BBE8FB266739FC0D76FC3236B4F2E2CF23AB57BD8C7561D263B641DB71F758ACEA4C7EB98C436F5FBC0BF4E4D3F9F59E12CB3163F9426ED260AD6086E65ED584DBAE812E0927A",
+      "domain": "dl.reg.163.com",
+      "path": "/",
+      "expires": 1740797266.81368,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NTES_P_UTID",
+      "value": "bqknvFVHcqnfmpArHCqGBOFgjuEmyhGO|1738205271",
+      "domain": ".163.com",
+      "path": "/",
+      "expires": 1769741269.403755,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NTES_SESS",
+      "value": "Z6EGwEAqCcEQnZfPjauk69gMi4OPqTMxBTRJid5LjiQWj0mKjiCG5_.c_QBjIfT6ael2Qk9ZyCgG3FVGEOavcEjeE.T8kKgMSbSoT27yatGEkEA4eLlOhWQjJeQWroYleG75dX8Wci9GSlhEh0jHnODZ.w7oPk_6W_vYzGGSI.4hTrf25oUrcpl7jMbxFilRv7X.EDGu2kPWZnIbvaWGeDv3VT_vRmaDx",
+      "domain": ".163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "S_INFO",
+      "value": "1738205271|0|3&80##|m13688192394_1",
+      "domain": ".163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "P_INFO",
+      "value": "m13688192394_1@163.com|1738205271|0|mail163|11&15|sic&1738204326&mail163#sic&511400#10#0#0|136394&1|youdaodict_client&mail163|13688192394@163.com",
+      "domain": ".163.com",
+      "path": "/",
+      "expires": 1769741269.404119,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "THE_LAST_LOGIN",
+      "value": "13688192394@163.com",
+      "domain": "dl.reg.163.com",
+      "path": "/",
+      "expires": 1740797269,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "nts_mail_user",
+      "value": "13688192394@163.com:-1:1",
+      "domain": ".163.com",
+      "path": "/",
+      "expires": 1772765269.414789,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "df",
+      "value": "mail163_letter",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_idc",
+      "value": "\"\"",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Coremail",
+      "value": "d1e2ccff366c3%DLvNUCSXQVSqsDTwghXXNAdQsFbqaYjD%wmsvr-40-102.mail.163.com",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_ENTRY_INFO",
+      "value": "\"1|0|mail163|mail163_letter|2409:8a62:ae65:9dd0:115b:6183:4ad2:21ce|ba5c98fc70b60c7e1c7c6f563179557b_v1||1201993906183950336|1738205271|0\"",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_ENTRY_CS",
+      "value": "5d11bde32d53b060ad707a69855f2828",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_SDID",
+      "value": "1201993906183950336",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": 1769741269.523705,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mixmailTokens",
+      "value": "1D1Qh0z-8SuqSIi__hPIh0ujKoVVaVFWlQiy7X2i8pgwdX98M3zB6Zm941e4sQ4CmhCqgq2QRXKOzrfWlvHm5m1rgINred1y-1NOX9FWe4s-BehB58c_HdHUx_srYQBuUlqN2T2u1rt1T9SLpZpwcIK8g",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_MISC",
+      "value": "m13688192394_1",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cm_last_info",
+      "value": "dT1tMTM2ODgxOTIzOTRfMSU0MDE2My5jb20mZD1odHRwcyUzQSUyRiUyRm1haWwuMTYzLmNvbSUyRmpzNiUyRm1haW4uanNwJTNGc2lkJTNEREx2TlVDU1hRVlNxc0RUd2doWFhOQWRRc0ZicWFZakQmcz1ETHZOVUNTWFFWU3FzRFR3Z2hYWE5BZFFzRmJxYVlqRCZoPWh0dHBzJTNBJTJGJTJGbWFpbC4xNjMuY29tJTJGanM2JTJGbWFpbi5qc3AlM0ZzaWQlM0RETHZOVUNTWFFWU3FzRFR3Z2hYWE5BZFFzRmJxYVlqRCZ3PWh0dHBzJTNBJTJGJTJGbWFpbC4xNjMuY29tJmw9LTEmdD0tMSZhcz10cnVl",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_SESS",
+      "value": "Z6EGwEAqCcEQnZfPjauk69gMi4OPqTMxBTRJid5LjiQWj0mKjiCG5_.c_QBjIfT6ael2Qk9ZyCgG3FVGEOavcEjeE.T8kKgMSbSoT27yatGEkEA4eLlOhWQjJeQWroYleG75dX8Wci9GSlhEh0jHnODZ.w7oPk_6W_vYzGGSI.4hTrf25oUrcpl7jMbxFilRv7X.EDGu2kPWZnIbvaWGeDv3VT_vRmaDx",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_SINFO",
+      "value": "1738205271|0|3&80##|m13688192394_1",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_PINFO",
+      "value": "\"m13688192394_1@163.com|1738205271|0|mail163|11&15|sic&1738204326&mail163#sic&511400#10#0#0|136394&1|youdaodict_client&mail163|13688192394@163.com\"",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": 1769741269.523881,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MAIL_LOCATION",
+      "value": "gz",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": 1769741269.523903,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "secu_info",
+      "value": "1",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_entry_sess",
+      "value": "9508e3235ef62a719f08e4dace610d47af976b5d69795cef6f43483b892cfdbb3d7756d0400490e4e665f423153444ead288cad9abea4a680c4b3b6452c8afc52079d9c5441be1566c84efa949f29f3331333c4cc837b5eecd829bf6153f2c153da266a9b96e47f8656c571305f9ab6d830e4d04d88db302da3eae4cbd3960e75221cdb950cbf178a6ebce13ca3433f3b530cc1c9a77b3e1c591542f022be66394d69eae3c6b25e04bdb0fe64d65b4022c95aeec4653cbbed8061de89ce7be99",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "DED331B391FB8B918B34021A57F9912E",
+      "domain": "mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "locale",
+      "value": "",
+      "domain": "mail.163.com",
+      "path": "/",
+      "expires": 1772765269.634198,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "face",
+      "value": "js6",
+      "domain": "mail.163.com",
+      "path": "/",
+      "expires": 1772765269.634358,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Coremail.sid",
+      "value": "DLvNUCSXQVSqsDTwghXXNAdQsFbqaYjD",
+      "domain": "mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_style",
+      "value": "js6",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_uid",
+      "value": "m13688192394_1@163.com",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_host",
+      "value": "mail.163.com",
+      "domain": ".mail.163.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://mail.163.com",
+      "localStorage": [
+        {
+          "name": "mail_login_way",
+          "value": "normal"
+        },
+        {
+          "name": "_BJS_marketingPositionClose_13688192394@163.com",
+          "value": "{\"value\":\"{}\",\"path\":\"/\",\"expires\":-1}"
+        },
+        {
+          "name": "free_webmail_9c89159b6fde1dc2/cly_pathTrace",
+          "value": "free_webmail_9c89159b6fde1dc2|marketingPositionTopnav_show,free_webmail_9c89159b6fde1dc2|welcome_welcomemodule_autoSwitch_mailrecom,free_webmail_9c89159b6fde1dc2|FrameDetectIsWebAuthnAvailable"
+        },
+        {
+          "name": "free_webmail_fp",
+          "value": "a69d55d047369e4a541a7f91962fbe12"
+        },
+        {
+          "name": "163-qrcode-login-times",
+          "value": "0"
+        },
+        {
+          "name": "free_webmail_9c89159b6fde1dc2/cly_queue",
+          "value": "[]"
+        },
+        {
+          "name": "free_webmail_9c89159b6fde1dc2/cly_sdid",
+          "value": "1201993906183950336"
+        },
+        {
+          "name": "urswebzjdeviceid",
+          "value": "1738205264459-351804"
+        },
+        {
+          "name": "163-account-login-times",
+          "value": "1"
+        },
+        {
+          "name": "free_webmail_9c89159b6fde1dc2/cly_event",
+          "value": "[{\"key\":\"marketingPositionTopnav_show\",\"count\":1,\"segmentation\":{\"strategyId\":\"\",\"utmSource\":\"navigation\",\"shelf\":\"member4\",\"isMember\":0,\"isSuper\":false,\"sid\":\"DLvNUCSXQVSqsDTwghXXNAdQsFbqaYjD\",\"dataCenter\":\"gz\",\"zone\":\"gz\"},\"path_trace\":\"free_webmail_9c89159b6fde1dc2|welcome_welcomemodule_autoSwitch_mailrecom\",\"session_id\":\"bbc37ba3-925b-45a8-875d-599d91175129\",\"type\":\"show\",\"module_name\":\"webmail_index_view\",\"utm\":{\"utm_id\":\"\",\"utm_source\":\"\",\"utm_medium\":\"\",\"utm_term\":\"\",\"utm_content\":\"\",\"utm_campaign\":\"\"},\"domInfo\":{},\"timestamp\":1738205272059,\"hour\":10,\"dow\":4,\"tz\":480}]"
+        },
+        {
+          "name": "testLocal",
+          "value": "true"
+        },
+        {
+          "name": "free_webmail_9c89159b6fde1dc2/cly_account",
+          "value": "13688192394@163.com"
+        },
+        {
+          "name": "cly_id",
+          "value": "ba5c98fc70b60c7e1c7c6f563179557b_v1"
+        }
+      ]
+    }
+  ]
+}
